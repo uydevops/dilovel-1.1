@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Application\Models;
+
+use App\Components\Database\BuilderQuery;
+use App\Components\Database\Model;
+
+
+/**
+ * Class $name
+ * @package App\Models
+ * @mixin BuilderQuery
+ */
+class $name extends Model
+{
+    /**
+     * @var string $table
+     */
+    protected string $table = '$table_name';
+
+    /**
+     * @var string
+     */
+    protected string  $connection = 'default';
+
+    /**
+     * @var array|string[]
+     */
+    protected array $hidden = [];
+
+
+
+}

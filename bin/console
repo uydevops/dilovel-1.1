@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once '../vendor/autoload.php';
+
+use Bin\Console;
+use App\Components\Route\Printable;
+
+
+$console = new Console($argv,$argc);
+$printable = new Printable($console->run());
+$printable->output();

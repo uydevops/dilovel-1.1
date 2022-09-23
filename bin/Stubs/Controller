@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Application\Controllers;
+
+use App\Components\Http\Request;
+
+
+class $name
+{
+   public function index(Request $request)
+   {
+
+   }
+}
